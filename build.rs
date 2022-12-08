@@ -13,5 +13,5 @@ fn main() {
         .with_pragma_once(true)
         .generate()
         .expect("Unable to generate bindings")
-        .write_to_file("../include/bindings.h");
+        .write_to_file("./include/bindings.h");
 }
