@@ -1,0 +1,15 @@
+[package]
+name = "c_bindings"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+core = { path = "./libpasstoken/core" }
+libc = "0.2.137"
+tokio = { version = "1.22.0", features = ["full"] }
+
+[build-dependencies]
+cbindgen = "0.24.3"

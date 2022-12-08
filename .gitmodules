@@ -1,0 +1,3 @@
+[submodule "libpasstoken"]
+	path = libpasstoken
+	url = https://github.com/ObamaTheLlama114/passtoken.git
